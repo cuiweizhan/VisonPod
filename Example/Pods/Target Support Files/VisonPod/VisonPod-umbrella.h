@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BaseMethod.h"
 
 FOUNDATION_EXPORT double VisonPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char VisonPodVersionString[];

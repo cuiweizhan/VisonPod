@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		05A64709D91C84D4C200A3F680768286 /* Pods-VisonPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FE675B85435829BB25A5D8C47C4040 /* Pods-VisonPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B8E17F62FC706609BAC4A4F45A8CCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2D2BF9E77CD769754508A4AF77484846 /* BaseMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5572A49F47B8566EACAD84C7277422 /* BaseMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365952529E2B05365F1C320E2B1B612F /* VisonPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B801CAB9C4D80E89BC58003B28F892 /* VisonPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38409368187496EA09E549CA6EA8AC53 /* Pods-VisonPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4485421B590B444F26D1FF0B0DE0B7 /* Pods-VisonPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE5B8E3170217FDCDCF0113C2AA6F30 /* Pods-VisonPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A109E6E1F3D53F3761483B10089A5374 /* Pods-VisonPod_Example-dummy.m */; };
 		3CC4189BD4124D6CB75EF30461B8229C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4DAE0BD5F1C5011969D3429D1F2DA6B0 /* VisonPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7600C5761F04619CBBD73331AFA0666 /* VisonPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BE383EBBC46D59A6D1CF228F0F90970 /* VisonPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6840199E27D7968E70C9B9B935709A4E /* VisonPod-dummy.m */; };
-		72D12D92913706A844A6F053589860E2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 057CD169EDBCEF36B0316293A9C49AC9 /* ReplaceMe.m */; };
+		7E475833E3671451B2BFB9D8F3FA9674 /* BaseMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3C4940377DD7D5D470914BF94623A /* BaseMethod.m */; };
 		86921570F79CA91CD4A41B8BD81F1817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AF7093EDD7D6EF2BBF4C5506629A9BBB /* VisonPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88879320B8EA5AB07FA3235A19E6621A /* VisonPod-dummy.m */; };
 		C602E9F9A5EA9564EAF14960099A8B06 /* Pods-VisonPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8376A20FB61D503DD0CB6F267C95E76 /* Pods-VisonPod_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -30,38 +31,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057CD169EDBCEF36B0316293A9C49AC9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VisonPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisonPod.xcconfig; sourceTree = "<group>"; };
-		0E5B8C025B0BD19E5E0A2929BB559EFC /* Pods-VisonPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VisonPod_Tests.modulemap"; sourceTree = "<group>"; };
+		0E5B8C025B0BD19E5E0A2929BB559EFC /* Pods-VisonPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VisonPod_Tests.modulemap"; sourceTree = "<group>"; };
 		0F009465F94502CDA34F71C46ECFD3F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16C586EEE6DB0D6B98FF9DA2A01114CC /* Pods-VisonPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D3B31435092952263981A7D456BAA82 /* Pods_VisonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VisonPod_Tests.framework; path = "Pods-VisonPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3B31435092952263981A7D456BAA82 /* Pods_VisonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisonPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F0FF4152146EB336452831235C643E /* Pods-VisonPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		41B8F1647FA6F44AC62C09DE7D4160BE /* Pods-VisonPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4EE2273F99FB386BE2ECED71D4E921AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4485421B590B444F26D1FF0B0DE0B7 /* Pods-VisonPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisonPod_Example-umbrella.h"; sourceTree = "<group>"; };
-		5C0D2D8CCAEBDD4AEB8BA6E49768AF3F /* VisonPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VisonPod.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6840199E27D7968E70C9B9B935709A4E /* VisonPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisonPod-dummy.m"; sourceTree = "<group>"; };
+		6777C681D6112A22304A0743A28DC5CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68866D17E5009234EAEC3423B4424943 /* Pods-VisonPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisonPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FA9B5D1CAECE130270488161704C35C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		763D94BD09769CBBE96D961896877456 /* Pods-VisonPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Example-resources.sh"; sourceTree = "<group>"; };
 		8047C8E5E9A74F2EC1057324F77480F6 /* Pods-VisonPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		81C4BBC06BC0997C63119E9CE8650274 /* Pods-VisonPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8322D19920D6DE87BAC3996369859A17 /* Pods-VisonPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisonPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85B801CAB9C4D80E89BC58003B28F892 /* VisonPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonPod-umbrella.h"; sourceTree = "<group>"; };
 		85CCD9F7D3B5B5BB7645B72D01DD61AB /* Pods-VisonPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisonPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88879320B8EA5AB07FA3235A19E6621A /* VisonPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisonPod-dummy.m"; sourceTree = "<group>"; };
+		8FE3C4940377DD7D5D470914BF94623A /* BaseMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseMethod.m; path = VisonPod/Classes/BaseMethod.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952857C116C239C1B6B07B4065232563 /* Pods-VisonPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisonPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		971761BECCA01E0788C3C1743B1791D9 /* Pods_VisonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VisonPod_Example.framework; path = "Pods-VisonPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		971761BECCA01E0788C3C1743B1791D9 /* Pods_VisonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisonPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A109E6E1F3D53F3761483B10089A5374 /* Pods-VisonPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisonPod_Example-dummy.m"; sourceTree = "<group>"; };
-		AE52A401338457BC8B32BDA6400B8535 /* Pods-VisonPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VisonPod_Example.modulemap"; sourceTree = "<group>"; };
-		C7600C5761F04619CBBD73331AFA0666 /* VisonPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonPod-umbrella.h"; sourceTree = "<group>"; };
+		AE52A401338457BC8B32BDA6400B8535 /* Pods-VisonPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VisonPod_Example.modulemap"; sourceTree = "<group>"; };
+		BD5572A49F47B8566EACAD84C7277422 /* BaseMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseMethod.h; path = VisonPod/Classes/BaseMethod.h; sourceTree = "<group>"; };
+		C6E82E88D0E23DCBFC1D1FCCB08AFF3C /* VisonPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisonPod.xcconfig; sourceTree = "<group>"; };
+		CC949BBDFA12BAD2BAC52795256142A1 /* VisonPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VisonPod.modulemap; sourceTree = "<group>"; };
 		CED2A1726440E26896148F75696E961C /* Pods-VisonPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D4FE675B85435829BB25A5D8C47C4040 /* Pods-VisonPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisonPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E8376A20FB61D503DD0CB6F267C95E76 /* Pods-VisonPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisonPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		F3576280BE2E1081E16A652ADFF128A4 /* VisonPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VisonPod.framework; path = VisonPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3576280BE2E1081E16A652ADFF128A4 /* VisonPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VisonPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B25411C051E108AAC0D51DE87AB80B /* VisonPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonPod-prefix.pch"; sourceTree = "<group>"; };
 		FAD29756133CC903C7E370BEE99D5FF3 /* Pods-VisonPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Tests-resources.sh"; sourceTree = "<group>"; };
-		FB737D7A376FBCD73E1938A273610CBD /* VisonPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonPod-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,16 +94,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2643CB9FD9EF26BF1B73F359BA2E4B1E /* VisonPod */ = {
-			isa = PBXGroup;
-			children = (
-				057CD169EDBCEF36B0316293A9C49AC9 /* ReplaceMe.m */,
-				71B72B431EA93B40A9C8814959E0FDAF /* Support Files */,
-			);
-			name = VisonPod;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2754E10C31CD91DA972D5C0A2FF88360 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,29 +149,48 @@
 			path = "Target Support Files/Pods-VisonPod_Example";
 			sourceTree = "<group>";
 		};
-		71B72B431EA93B40A9C8814959E0FDAF /* Support Files */ = {
+		7ABAA9904DBE2155D06B707F6843FAFB /* VisonPod */ = {
 			isa = PBXGroup;
 			children = (
-				4EE2273F99FB386BE2ECED71D4E921AA /* Info.plist */,
-				5C0D2D8CCAEBDD4AEB8BA6E49768AF3F /* VisonPod.modulemap */,
-				0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */,
-				6840199E27D7968E70C9B9B935709A4E /* VisonPod-dummy.m */,
-				FB737D7A376FBCD73E1938A273610CBD /* VisonPod-prefix.pch */,
-				C7600C5761F04619CBBD73331AFA0666 /* VisonPod-umbrella.h */,
+				BD5572A49F47B8566EACAD84C7277422 /* BaseMethod.h */,
+				8FE3C4940377DD7D5D470914BF94623A /* BaseMethod.m */,
+				A54F4BEE2A0262F2EDB997AC0031CD15 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/VisonPod";
+			name = VisonPod;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				EE8F6602646439C097F3C7B2F2556F04 /* Development Pods */,
+				86CFE7041C1E7FEE4F7C3E7E02E6ACCD /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				2754E10C31CD91DA972D5C0A2FF88360 /* Products */,
 				2D65E7CBE5F9ECA72E1B0B9A9FF9C41B /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		86CFE7041C1E7FEE4F7C3E7E02E6ACCD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ABAA9904DBE2155D06B707F6843FAFB /* VisonPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A54F4BEE2A0262F2EDB997AC0031CD15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6777C681D6112A22304A0743A28DC5CA /* Info.plist */,
+				CC949BBDFA12BAD2BAC52795256142A1 /* VisonPod.modulemap */,
+				C6E82E88D0E23DCBFC1D1FCCB08AFF3C /* VisonPod.xcconfig */,
+				88879320B8EA5AB07FA3235A19E6621A /* VisonPod-dummy.m */,
+				F4B25411C051E108AAC0D51DE87AB80B /* VisonPod-prefix.pch */,
+				85B801CAB9C4D80E89BC58003B28F892 /* VisonPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VisonPod";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -198,14 +209,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EE8F6602646439C097F3C7B2F2556F04 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2643CB9FD9EF26BF1B73F359BA2E4B1E /* VisonPod */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -217,19 +220,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67B90F25D74C00A72D2C2BBA3EBE0E44 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DAE0BD5F1C5011969D3429D1F2DA6B0 /* VisonPod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8C6FB7FF7364A056E6F5CCC69B741F30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				05A64709D91C84D4C200A3F680768286 /* Pods-VisonPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1420D05281DBB6E036DC43AC825771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2BF9E77CD769754508A4AF77484846 /* BaseMethod.h in Headers */,
+				365952529E2B05365F1C320E2B1B612F /* VisonPod-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +262,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B10BF9ACE84D0801FCD84CFE5B445067 /* Build configuration list for PBXNativeTarget "VisonPod" */;
 			buildPhases = (
-				7BE0EACA9338C1364A7009B86CA7AE37 /* Sources */,
+				1EDB5CD73D240BA4BBF1C2146F7F9C58 /* Sources */,
 				8799ADC83887C4B13FBDFCB28C5CA811 /* Frameworks */,
-				67B90F25D74C00A72D2C2BBA3EBE0E44 /* Headers */,
+				FB1420D05281DBB6E036DC43AC825771 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -325,12 +329,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE0EACA9338C1364A7009B86CA7AE37 /* Sources */ = {
+		1EDB5CD73D240BA4BBF1C2146F7F9C58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D12D92913706A844A6F053589860E2 /* ReplaceMe.m in Sources */,
-				5BE383EBBC46D59A6D1CF228F0F90970 /* VisonPod-dummy.m in Sources */,
+				7E475833E3671451B2BFB9D8F3FA9674 /* BaseMethod.m in Sources */,
+				AF7093EDD7D6EF2BBF4C5506629A9BBB /* VisonPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,7 +512,7 @@
 		};
 		AC6D2EE367E5153166926357ABFA72A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */;
+			baseConfigurationReference = C6E82E88D0E23DCBFC1D1FCCB08AFF3C /* VisonPod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -541,7 +545,7 @@
 		};
 		D16576BCFB7453199AAD1A534D2617DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */;
+			baseConfigurationReference = C6E82E88D0E23DCBFC1D1FCCB08AFF3C /* VisonPod.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

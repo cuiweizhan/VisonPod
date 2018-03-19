@@ -7,12 +7,12 @@
 //
 
 #import "VisonAppDelegate.h"
-
+#import <VisonPod/BaseMethod.h>
 @implementation VisonAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    float ii = [BaseMethod getHeightForString:@"dfasa" font:[UIFont systemFontOfSize:14] andWidth:100];
     return YES;
 }
 
