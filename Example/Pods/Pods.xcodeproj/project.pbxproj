@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A64709D91C84D4C200A3F680768286 /* Pods-VisonPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FE675B85435829BB25A5D8C47C4040 /* Pods-VisonPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8E17F62FC706609BAC4A4F45A8CCB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		38409368187496EA09E549CA6EA8AC53 /* Pods-VisonPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4485421B590B444F26D1FF0B0DE0B7 /* Pods-VisonPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE5B8E3170217FDCDCF0113C2AA6F30 /* Pods-VisonPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A109E6E1F3D53F3761483B10089A5374 /* Pods-VisonPod_Example-dummy.m */; };
+		3CC4189BD4124D6CB75EF30461B8229C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DAE0BD5F1C5011969D3429D1F2DA6B0 /* VisonPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7600C5761F04619CBBD73331AFA0666 /* VisonPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE383EBBC46D59A6D1CF228F0F90970 /* VisonPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6840199E27D7968E70C9B9B935709A4E /* VisonPod-dummy.m */; };
+		72D12D92913706A844A6F053589860E2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 057CD169EDBCEF36B0316293A9C49AC9 /* ReplaceMe.m */; };
+		86921570F79CA91CD4A41B8BD81F1817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C602E9F9A5EA9564EAF14960099A8B06 /* Pods-VisonPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8376A20FB61D503DD0CB6F267C95E76 /* Pods-VisonPod_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61EADB59B025E37D9CC655D5B3A56869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D452D5465A0B941BE3D33125748823;
+			remoteInfo = VisonPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057CD169EDBCEF36B0316293A9C49AC9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VisonPod/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VisonPod.xcconfig; sourceTree = "<group>"; };
+		0E5B8C025B0BD19E5E0A2929BB559EFC /* Pods-VisonPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VisonPod_Tests.modulemap"; sourceTree = "<group>"; };
+		0F009465F94502CDA34F71C46ECFD3F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C586EEE6DB0D6B98FF9DA2A01114CC /* Pods-VisonPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1D3B31435092952263981A7D456BAA82 /* Pods_VisonPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VisonPod_Tests.framework; path = "Pods-VisonPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F0FF4152146EB336452831235C643E /* Pods-VisonPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		41B8F1647FA6F44AC62C09DE7D4160BE /* Pods-VisonPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4EE2273F99FB386BE2ECED71D4E921AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4485421B590B444F26D1FF0B0DE0B7 /* Pods-VisonPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisonPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		5C0D2D8CCAEBDD4AEB8BA6E49768AF3F /* VisonPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VisonPod.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6840199E27D7968E70C9B9B935709A4E /* VisonPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VisonPod-dummy.m"; sourceTree = "<group>"; };
+		68866D17E5009234EAEC3423B4424943 /* Pods-VisonPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisonPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6FA9B5D1CAECE130270488161704C35C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763D94BD09769CBBE96D961896877456 /* Pods-VisonPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Example-resources.sh"; sourceTree = "<group>"; };
+		8047C8E5E9A74F2EC1057324F77480F6 /* Pods-VisonPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		81C4BBC06BC0997C63119E9CE8650274 /* Pods-VisonPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8322D19920D6DE87BAC3996369859A17 /* Pods-VisonPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisonPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85CCD9F7D3B5B5BB7645B72D01DD61AB /* Pods-VisonPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VisonPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952857C116C239C1B6B07B4065232563 /* Pods-VisonPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VisonPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		971761BECCA01E0788C3C1743B1791D9 /* Pods_VisonPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VisonPod_Example.framework; path = "Pods-VisonPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A109E6E1F3D53F3761483B10089A5374 /* Pods-VisonPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisonPod_Example-dummy.m"; sourceTree = "<group>"; };
+		AE52A401338457BC8B32BDA6400B8535 /* Pods-VisonPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VisonPod_Example.modulemap"; sourceTree = "<group>"; };
+		C7600C5761F04619CBBD73331AFA0666 /* VisonPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonPod-umbrella.h"; sourceTree = "<group>"; };
+		CED2A1726440E26896148F75696E961C /* Pods-VisonPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VisonPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D4FE675B85435829BB25A5D8C47C4040 /* Pods-VisonPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VisonPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E8376A20FB61D503DD0CB6F267C95E76 /* Pods-VisonPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VisonPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3576280BE2E1081E16A652ADFF128A4 /* VisonPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VisonPod.framework; path = VisonPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD29756133CC903C7E370BEE99D5FF3 /* Pods-VisonPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VisonPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		FB737D7A376FBCD73E1938A273610CBD /* VisonPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VisonPod-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		388908469C97A05F3F7686DA87E203E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8E17F62FC706609BAC4A4F45A8CCB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B375E0E0F6CAA1A7B4DAAA5562FAF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC4189BD4124D6CB75EF30461B8229C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8799ADC83887C4B13FBDFCB28C5CA811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86921570F79CA91CD4A41B8BD81F1817 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2643CB9FD9EF26BF1B73F359BA2E4B1E /* VisonPod */ = {
+			isa = PBXGroup;
+			children = (
+				057CD169EDBCEF36B0316293A9C49AC9 /* ReplaceMe.m */,
+				71B72B431EA93B40A9C8814959E0FDAF /* Support Files */,
+			);
+			name = VisonPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2754E10C31CD91DA972D5C0A2FF88360 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				971761BECCA01E0788C3C1743B1791D9 /* Pods_VisonPod_Example.framework */,
+				1D3B31435092952263981A7D456BAA82 /* Pods_VisonPod_Tests.framework */,
+				F3576280BE2E1081E16A652ADFF128A4 /* VisonPod.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D65E7CBE5F9ECA72E1B0B9A9FF9C41B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D489CA3844E46BA857028A659FCA3F4 /* Pods-VisonPod_Example */,
+				39314C2D0FE9677D8E03EA645AB6D521 /* Pods-VisonPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39314C2D0FE9677D8E03EA645AB6D521 /* Pods-VisonPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0F009465F94502CDA34F71C46ECFD3F1 /* Info.plist */,
+				0E5B8C025B0BD19E5E0A2929BB559EFC /* Pods-VisonPod_Tests.modulemap */,
+				8322D19920D6DE87BAC3996369859A17 /* Pods-VisonPod_Tests-acknowledgements.markdown */,
+				85CCD9F7D3B5B5BB7645B72D01DD61AB /* Pods-VisonPod_Tests-acknowledgements.plist */,
+				E8376A20FB61D503DD0CB6F267C95E76 /* Pods-VisonPod_Tests-dummy.m */,
+				81C4BBC06BC0997C63119E9CE8650274 /* Pods-VisonPod_Tests-frameworks.sh */,
+				FAD29756133CC903C7E370BEE99D5FF3 /* Pods-VisonPod_Tests-resources.sh */,
+				D4FE675B85435829BB25A5D8C47C4040 /* Pods-VisonPod_Tests-umbrella.h */,
+				26F0FF4152146EB336452831235C643E /* Pods-VisonPod_Tests.debug.xcconfig */,
+				CED2A1726440E26896148F75696E961C /* Pods-VisonPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-VisonPod_Tests";
+			path = "Target Support Files/Pods-VisonPod_Tests";
+			sourceTree = "<group>";
+		};
+		3D489CA3844E46BA857028A659FCA3F4 /* Pods-VisonPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6FA9B5D1CAECE130270488161704C35C /* Info.plist */,
+				AE52A401338457BC8B32BDA6400B8535 /* Pods-VisonPod_Example.modulemap */,
+				952857C116C239C1B6B07B4065232563 /* Pods-VisonPod_Example-acknowledgements.markdown */,
+				68866D17E5009234EAEC3423B4424943 /* Pods-VisonPod_Example-acknowledgements.plist */,
+				A109E6E1F3D53F3761483B10089A5374 /* Pods-VisonPod_Example-dummy.m */,
+				41B8F1647FA6F44AC62C09DE7D4160BE /* Pods-VisonPod_Example-frameworks.sh */,
+				763D94BD09769CBBE96D961896877456 /* Pods-VisonPod_Example-resources.sh */,
+				5B4485421B590B444F26D1FF0B0DE0B7 /* Pods-VisonPod_Example-umbrella.h */,
+				8047C8E5E9A74F2EC1057324F77480F6 /* Pods-VisonPod_Example.debug.xcconfig */,
+				16C586EEE6DB0D6B98FF9DA2A01114CC /* Pods-VisonPod_Example.release.xcconfig */,
+			);
+			name = "Pods-VisonPod_Example";
+			path = "Target Support Files/Pods-VisonPod_Example";
+			sourceTree = "<group>";
+		};
+		71B72B431EA93B40A9C8814959E0FDAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE2273F99FB386BE2ECED71D4E921AA /* Info.plist */,
+				5C0D2D8CCAEBDD4AEB8BA6E49768AF3F /* VisonPod.modulemap */,
+				0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */,
+				6840199E27D7968E70C9B9B935709A4E /* VisonPod-dummy.m */,
+				FB737D7A376FBCD73E1938A273610CBD /* VisonPod-prefix.pch */,
+				C7600C5761F04619CBBD73331AFA0666 /* VisonPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VisonPod";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EE8F6602646439C097F3C7B2F2556F04 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2754E10C31CD91DA972D5C0A2FF88360 /* Products */,
+				2D65E7CBE5F9ECA72E1B0B9A9FF9C41B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE8F6602646439C097F3C7B2F2556F04 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2643CB9FD9EF26BF1B73F359BA2E4B1E /* VisonPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4497155867D3157F66942483C8CFD4FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38409368187496EA09E549CA6EA8AC53 /* Pods-VisonPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B90F25D74C00A72D2C2BBA3EBE0E44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAE0BD5F1C5011969D3429D1F2DA6B0 /* VisonPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C6FB7FF7364A056E6F5CCC69B741F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05A64709D91C84D4C200A3F680768286 /* Pods-VisonPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AF7CCF874DE90A23631D9F9ACCC8D13 /* Pods-VisonPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56846314C468579CDD61C81AC91030B0 /* Build configuration list for PBXNativeTarget "Pods-VisonPod_Example" */;
+			buildPhases = (
+				0DDA3876600A9E117812AEC3AE4D172C /* Sources */,
+				4B375E0E0F6CAA1A7B4DAAA5562FAF53 /* Frameworks */,
+				4497155867D3157F66942483C8CFD4FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BA6681EF3D3719CEAF93013B7B3869D /* PBXTargetDependency */,
+			);
+			name = "Pods-VisonPod_Example";
+			productName = "Pods-VisonPod_Example";
+			productReference = 971761BECCA01E0788C3C1743B1791D9 /* Pods_VisonPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17D452D5465A0B941BE3D33125748823 /* VisonPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10BF9ACE84D0801FCD84CFE5B445067 /* Build configuration list for PBXNativeTarget "VisonPod" */;
+			buildPhases = (
+				7BE0EACA9338C1364A7009B86CA7AE37 /* Sources */,
+				8799ADC83887C4B13FBDFCB28C5CA811 /* Frameworks */,
+				67B90F25D74C00A72D2C2BBA3EBE0E44 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisonPod;
+			productName = VisonPod;
+			productReference = F3576280BE2E1081E16A652ADFF128A4 /* VisonPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C047EDF4C9B96B2F805572FD99C86F9 /* Pods-VisonPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5911A4258649F69E8FDD9A40D797ED00 /* Build configuration list for PBXNativeTarget "Pods-VisonPod_Tests" */;
+			buildPhases = (
+				B140EDD19E00E0FA9ED819B3AFA338C5 /* Sources */,
+				388908469C97A05F3F7686DA87E203E7 /* Frameworks */,
+				8C6FB7FF7364A056E6F5CCC69B741F30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VisonPod_Tests";
+			productName = "Pods-VisonPod_Tests";
+			productReference = 1D3B31435092952263981A7D456BAA82 /* Pods_VisonPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2754E10C31CD91DA972D5C0A2FF88360 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF7CCF874DE90A23631D9F9ACCC8D13 /* Pods-VisonPod_Example */,
+				9C047EDF4C9B96B2F805572FD99C86F9 /* Pods-VisonPod_Tests */,
+				17D452D5465A0B941BE3D33125748823 /* VisonPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DDA3876600A9E117812AEC3AE4D172C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE5B8E3170217FDCDCF0113C2AA6F30 /* Pods-VisonPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BE0EACA9338C1364A7009B86CA7AE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D12D92913706A844A6F053589860E2 /* ReplaceMe.m in Sources */,
+				5BE383EBBC46D59A6D1CF228F0F90970 /* VisonPod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B140EDD19E00E0FA9ED819B3AFA338C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C602E9F9A5EA9564EAF14960099A8B06 /* Pods-VisonPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BA6681EF3D3719CEAF93013B7B3869D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VisonPod;
+			target = 17D452D5465A0B941BE3D33125748823 /* VisonPod */;
+			targetProxy = 61EADB59B025E37D9CC655D5B3A56869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0336B45C4D72D4ECB09A80C7A2FD911F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F0FF4152146EB336452831235C643E /* Pods-VisonPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonPod_Tests/Pods-VisonPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205E26CA9049B5738FF220BAE74D9F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C586EEE6DB0D6B98FF9DA2A01114CC /* Pods-VisonPod_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonPod_Example/Pods-VisonPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61AEB853D5301227F14B937526E80975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8047C8E5E9A74F2EC1057324F77480F6 /* Pods-VisonPod_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonPod_Example/Pods-VisonPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC6D2EE367E5153166926357ABFA72A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VisonPod/VisonPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisonPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisonPod/VisonPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = VisonPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D16576BCFB7453199AAD1A534D2617DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B885BBBA7A1A68AFD3BD96CEC78D3A2 /* VisonPod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VisonPod/VisonPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VisonPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VisonPod/VisonPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VisonPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E324C379E118894C749463EC8B7FCF15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED2A1726440E26896148F75696E961C /* Pods-VisonPod_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-VisonPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VisonPod_Tests/Pods-VisonPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VisonPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56846314C468579CDD61C81AC91030B0 /* Build configuration list for PBXNativeTarget "Pods-VisonPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61AEB853D5301227F14B937526E80975 /* Debug */,
+				205E26CA9049B5738FF220BAE74D9F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5911A4258649F69E8FDD9A40D797ED00 /* Build configuration list for PBXNativeTarget "Pods-VisonPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0336B45C4D72D4ECB09A80C7A2FD911F /* Debug */,
+				E324C379E118894C749463EC8B7FCF15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10BF9ACE84D0801FCD84CFE5B445067 /* Build configuration list for PBXNativeTarget "VisonPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D16576BCFB7453199AAD1A534D2617DC /* Debug */,
+				AC6D2EE367E5153166926357ABFA72A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
